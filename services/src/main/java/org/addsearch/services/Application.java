@@ -1,4 +1,4 @@
-package org.addsearch.services.config;
+package org.addsearch.services;
 
 
 import org.springframework.boot.CommandLineRunner;
@@ -6,12 +6,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
 
 import java.util.Arrays;
 
 @SpringBootApplication
-@ComponentScan({"org.addsearch.services.controllers"})
 public class Application {
 
     public static void main(String[] args) {
